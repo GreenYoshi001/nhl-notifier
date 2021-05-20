@@ -178,7 +178,7 @@ class NHLTeams:
                  }
 
 
-nhl_games = dict()
+nhl_games = dict(EDM)
 echl_games = dict()
 
 
