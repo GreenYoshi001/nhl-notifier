@@ -19,7 +19,7 @@ MAX_DELAY = 600
 MIN_DELAY = 20
 
 NHL = True
-ECHL = True
+ECHL = False
 
 private_file.close()
 
