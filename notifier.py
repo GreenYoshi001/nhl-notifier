@@ -68,7 +68,7 @@ class Team:
             self.team_abbr = team_name
         else:
             self.team_abbr = NHLTeams.team_dict[team_name]
-        self.team_abbr_lower = self.team_abbr.lower()
+        self.team_abbr_lower = self.team_abbr.lower(edm)
         self.__last_score = team_score
         self.last_score = team_score
         self.__in_power_play = False
